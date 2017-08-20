@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="form register"
+        android:textColor="#81D4FA"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:background="@drawable/bg_edit"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:textColorHint="#CFD8DC"
+        android:textColor="#8bc34a"
+        android:drawableLeft="@drawable/img_taikhoan"
+        android:inputType="textPersonName"
+        android:hint="enter username" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:background="@drawable/bg_edit"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/img_matkhau"
+        android:inputType="textPersonName"
+        android:hint="enter password"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColorHint="#CFD8DC"
+        android:textColor="#8bc34a"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:background="@drawable/bg_edit"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/img_matkhau2"
+        android:inputType="textPersonName"
+        android:hint="enter password repeat"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColorHint="#CFD8DC"
+        android:textColor="#8bc34a"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2" />
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Form login"
+        android:textColor="#81D4FA"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="register"
+        android:background="#FFEB3B"
+        android:textColor="#607D8B"
+        android:layout_below="@+id/editText5"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:background="@drawable/bg_edit"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:drawableLeft="@drawable/img_taikhoan"
+        android:textColorHint="#CFD8DC"
+        android:textColor="#8bc34a"
+        android:inputType="textPersonName"
+        android:hint="user name" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText4"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:background="@drawable/bg_edit"
+        android:padding="8dp"
+        android:inputType="textPersonName"
+        android:hint="password"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColorHint="#CFD8DC"
+        android:textColor="#8bc34a"
+        android:drawableLeft="@drawable/img_matkhau"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4" />
+
+</RelativeLayout>
